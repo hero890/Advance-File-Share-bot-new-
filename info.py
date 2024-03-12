@@ -96,7 +96,7 @@ if len(URL) == 0:
     logging.error('URL is missing, exiting now')
     exit()
 else:
-    if URL.startswith(('https://', 'http://')):
+    if URL.startswith(('https://advance-file-share-bot-new.onrender.com', 'https://advance-file-share-bot-new.onrender.com')):
         if not URL.endswith("/"):
             URL += '/'
     else:
